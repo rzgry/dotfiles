@@ -1,0 +1,16 @@
+{
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.colorCustomizations": {
+      "statusBar.background" : "#1A1A1A",
+      "statusBar.noFolderBackground" : "#212121",
+      "statusBar.debuggingBackground": "#263238"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "CodeSandbox",
+  "editor.tabSize": 2,
+  "files.associations": {
+      ".prettierrc": "json"
+  },
+  "files.autoSave": "afterDelay"
+}
