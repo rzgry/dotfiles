@@ -1,0 +1,7 @@
+alias c="clear"
+alias ls='ls -G'
+alias ic="ibmcloud"
+
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dev="cd ~/Developer"
