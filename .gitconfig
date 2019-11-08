@@ -1,8 +1,8 @@
 [user]
-	name = Ryan Zegray
-	email = ryan.zegray@gmail.com
+  name = Ryan Zegray
+  email = ryan.zegray@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [alias]
   co = checkout
-	s = status -s
+  s = status -s
