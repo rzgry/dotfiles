@@ -5,4 +5,10 @@
   excludesfile = ~/.gitignore_global
 [alias]
   co = checkout
-  s = status -s
+  s = status -sb
+  br = branch
+  l = log --pretty=oneline -n 20 --graph --abbrev-commit
+[color "branch"]
+  current = green
+  remote = yellow
+  
