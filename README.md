@@ -1,1 +1,5 @@
-# Dotfiles
+# dotfiles
+
+```sh
+~/.dotfiles
+```
