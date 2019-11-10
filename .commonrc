@@ -1,6 +1,8 @@
 alias c="clear"
 alias ls='ls -G'
+alias grep="grep --color"
 alias ic="ibmcloud"
+alias unexport="unset"
 
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
