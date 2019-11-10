@@ -1,0 +1,5 @@
+ln -s ~/Developer/dotfiles/.commonrc ~/.commonrc
+ln -s ~/Developer/dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/Developer/dotfiles/.zshrc ~/.zshrc
+ln -s ~/Developer/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/Developer/dotfiles/.gitignore_global ~/.gitignore_global
