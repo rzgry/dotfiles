@@ -1,3 +1,4 @@
+#!/bin/zsh
 ln -s ~/Developer/dotfiles/.commonrc ~/.commonrc
 ln -s ~/Developer/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/Developer/dotfiles/.zshrc ~/.zshrc
