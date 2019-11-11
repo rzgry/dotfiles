@@ -4,6 +4,7 @@ alias grep="grep --color"
 alias ic="ibmcloud"
 alias unexport="unset"
 alias o="open"
+alias k="kubectl"
 
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
