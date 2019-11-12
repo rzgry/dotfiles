@@ -15,4 +15,4 @@ colors
 
 setopt auto_cd
 
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
+PROMPT='%B%F{245}%1~%f%b %# %(?.%F{green}➔.%F{red}➔)%f '
