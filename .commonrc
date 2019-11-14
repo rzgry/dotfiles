@@ -1,3 +1,10 @@
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dev="cd ~/Developer"
+
 alias c="clear"
 alias ls='ls -G'
 alias grep="grep --color"
@@ -6,6 +13,15 @@ alias unexport="unset"
 alias o="open"
 alias k="kubectl"
 
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias dev="cd ~/Developer"
+# useful to find the PID of a process using a port
+# Ex. find-port 3000
+find-port() {
+  netstat -vanp tcp | grep $1 | tr -s " "
+}
+alias fport="find-port"
+
+alias chrome="open -a Google\ Chrome"
+alias safari="open -a Safari"
+alias github="open https://github.com/"
+alias google="open https://www.google.com/"
+
