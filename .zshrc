@@ -17,4 +17,7 @@ colors
 
 setopt auto_cd
 
+# add kubectl zsh autocomplete to k alias
+compdef __start_kubectl k
+
 PROMPT='%B%F{245}%1~%f%b %# %(?.%F{green}».%F{red}»)%f '
