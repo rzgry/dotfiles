@@ -1,7 +1,9 @@
 #!/bin/zsh
-ln -s ~/Developer/dotfiles/.commonrc ~/.commonrc
-ln -s ~/Developer/dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/Developer/dotfiles/.zshrc ~/.zshrc
-ln -s ~/Developer/dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/Developer/dotfiles/.gitignore_global ~/.gitignore_global
-ln -s ~/Developer/dotfiles/.zsh ~/.zsh
+current_dir=$(pwd)
+
+ln -s ${current_dir}/.commonrc ~/.commonrc
+ln -s ${current_dir}/.bash_profile ~/.bash_profile
+ln -s ${current_dir}/.zshrc ~/.zshrc
+ln -s ${current_dir}/.gitconfig ~/.gitconfig
+ln -s ${current_dir}/.gitignore_global ~/.gitignore_global
+ln -s ${current_dir}/.zsh ~/.zsh
