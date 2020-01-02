@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 current_dir=$(pwd)
 
 ln -s ${current_dir}/.commonrc ~/.commonrc
