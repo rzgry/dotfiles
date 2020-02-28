@@ -2,6 +2,7 @@
 [core]
   excludesfile = ~/.gitignore_global
 [alias]
+  ca = commit --amend
   co = checkout
   s = status -sb
   br = branch
