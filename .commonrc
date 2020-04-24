@@ -17,7 +17,10 @@ alias kf="kfctl"
 # useful to find the PID of a process using a port
 # Ex. find-port 3000
 find-port() {
-  netstat -vanp tcp | grep $1 | tr -s " "
+  # print header of netstat
+  netstat -vanp tcp | head -n 2
+  # print filtered results
+  netstat -vanp tcp | grep $1
 }
 alias fport="find-port"
 
