@@ -1,9 +1,9 @@
-
 [core]
   excludesfile = ~/.gitignore_global
 [alias]
-  ca = commit --amend
   co = checkout
+  ci = commit
+  ca = commit --amend
   s = status -sb
   br = branch
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
