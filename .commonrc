@@ -32,3 +32,5 @@ alias google="open https://www.google.com/"
 # golang
 export GOPATH="$HOME/go"
 export PATH="${PATH}:${GOPATH}/bin"
+
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
