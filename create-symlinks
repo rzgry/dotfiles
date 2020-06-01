@@ -5,5 +5,4 @@ ln -s ${current_dir}/.commonrc ~/.commonrc
 ln -s ${current_dir}/.bash_profile ~/.bash_profile
 ln -s ${current_dir}/.zshrc ~/.zshrc
 ln -s ${current_dir}/.gitconfig ~/.gitconfig
-ln -s ${current_dir}/.gitignore_global ~/.gitignore_global
 ln -s ${current_dir}/.zsh ~/.zsh
