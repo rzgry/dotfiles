@@ -12,7 +12,6 @@ alias ic="ibmcloud"
 alias unexport="unset"
 alias o="open"
 alias k="kubectl"
-alias kf="kfctl"
 
 # useful to find the PID of a process using a port
 # Ex. find-port 3000
@@ -24,12 +23,6 @@ find-port() {
 }
 alias fport="find-port"
 
-alias chrome="open -a Google\ Chrome"
-alias safari="open -a Safari"
-alias github="open https://github.com/"
-alias google="open https://www.google.com/"
-
-# golang
 export GOPATH="$HOME/go"
 export PATH="${PATH}:${GOPATH}/bin"
 
