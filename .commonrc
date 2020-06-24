@@ -1,3 +1,5 @@
+source ~/.z.sh
+
 alias ...="cd ../.."
 alias ....="cd ../../.."
 

@@ -1,8 +1,9 @@
 #!/bin/bash
 current_dir=$(pwd)
 
-ln -s ${current_dir}/.commonrc ~/.commonrc
-ln -s ${current_dir}/.bash_profile ~/.bash_profile
-ln -s ${current_dir}/.zshrc ~/.zshrc
-ln -s ${current_dir}/.gitconfig ~/.gitconfig
-ln -s ${current_dir}/.zsh ~/.zsh
+ln -sv ${current_dir}/.commonrc ~
+ln -sv ${current_dir}/.bash_profile ~
+ln -sv ${current_dir}/.zshrc ~
+ln -sv ${current_dir}/.gitconfig ~
+ln -sv ${current_dir}/.zsh ~
+ln -sv ${current_dir}/.z.sh ~
