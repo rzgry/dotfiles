@@ -3,9 +3,11 @@
   ci = commit
   cs = commit -s
   ca = commit --amend
+  cane = commit --amend --no-edit
   s = status -sb
   br = branch
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
+  pushf = push --force-with-lease
 [color "branch"]
   current = green
   remote = yellow
