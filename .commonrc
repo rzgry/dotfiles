@@ -29,4 +29,6 @@ alias fport="find-port"
 export GOPATH="$HOME/go"
 export PATH="${PATH}:${GOPATH}/bin"
 
-export JAVA_HOME=`/usr/libexec/java_home -v 11`
+if [ -e /usr/libexec/java_home ]; then
+  export JAVA_HOME=`/usr/libexec/java_home -v 11`
+fi
