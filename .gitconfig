@@ -5,9 +5,10 @@
   ca = commit --amend
   cane = commit --amend --no-edit
   s = status -sb
-  br = branch
+  br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
   pushf = push --force-with-lease
+  undo = reset HEAD~1 --mixed
 [color "branch"]
   current = green
   remote = yellow
