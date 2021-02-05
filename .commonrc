@@ -10,7 +10,6 @@ alias dev="cd ~/Developer"
 alias c="clear"
 alias ls='ls -G'
 alias grep="grep --color"
-alias ic="ibmcloud"
 alias unexport="unset"
 alias o="open"
 alias k="kubectl"
@@ -28,7 +27,3 @@ alias fport="find-port"
 
 export GOPATH="$HOME/go"
 export PATH="${PATH}:${GOPATH}/bin"
-
-if [ -e /usr/libexec/java_home ]; then
-  export JAVA_HOME=`/usr/libexec/java_home -v 11`
-fi
