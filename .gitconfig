@@ -12,3 +12,5 @@
 [color "branch"]
   current = green
   remote = yellow
+[pull]
+  ff = only
